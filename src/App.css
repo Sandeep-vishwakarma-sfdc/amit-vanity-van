@@ -17,6 +17,12 @@
   z-index:100;
 }
 
+.imgcls{
+	height: 100%;
+    max-height: 600px;
+    width: 100%;
+}
+
 body{
 	
 }
@@ -25,3 +31,10 @@ body{
 	margin-top:16px;
 }
 
+.stickyheader{
+	background-color: #FFF;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+}

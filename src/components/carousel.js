@@ -1,13 +1,14 @@
 import React, { Component } from 'react'  
 import Carousel from 'react-bootstrap/Carousel' ;
 export class BootstrapCarousel extends Component {  
+  
         render() {  
                 return (  
                         <div>
                         <Carousel fade>
-                        <Carousel.Item interval={2000}>
+                        <Carousel.Item style={{maxHeight:"650px"}} interval={2000}>
                           <img
-                            className="d-block w-100 imgitem"
+                            className="imgcls"
                             src="https://github.com/Sandeep-vishwakarma-sfdc/image-repo/blob/master/darkblue/i2.jpeg?raw=true"
                             alt="First slide"
                           />
@@ -16,9 +17,9 @@ export class BootstrapCarousel extends Component {
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                           </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item interval={2000}>
+                        <Carousel.Item  style={{maxHeight:"650px"}} interval={2000}>
                           <img
-                            className="d-block w-100 imgitem"
+                            className="imgcls"
                             src="https://github.com/Sandeep-vishwakarma-sfdc/image-repo/blob/master/darkblue/i1.jpeg?raw=true"
                             alt="Second slide"
                           />
@@ -28,13 +29,36 @@ export class BootstrapCarousel extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                           </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item interval={2000}>
+                        <Carousel.Item  style={{maxHeight:"650px"}} interval={2000}>
                           <img
-                            className="d-block w-100 imgitem"
-                            src="https://github.com/Sandeep-vishwakarma-sfdc/image-repo/blob/master/blue/i10.jpeg?raw=true"
+                            className="imgcls"
+                            src="https://github.com/Sandeep-vishwakarma-sfdc/image-repo/blob/master/blue/i11.jpeg?raw=true"
                             alt="Third slide"
                           />
                       
+                          <Carousel.Caption>
+                            <h3>Third slide label</h3>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                          </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item style={{maxHeight:"650px"}} interval={2000}>
+                          <img
+                            className="imgcls"
+                            src="https://github.com/Sandeep-vishwakarma-sfdc/image-repo/blob/master/blue/e3.jpeg?raw=true"
+                            alt="Third slide"
+                          />
+                      
+                          <Carousel.Caption>
+                            <h3>Fourth slide label</h3>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                          </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item  style={{maxHeight:"650px"}} interval={2000}>
+                          <img
+                            className="imgcls"
+                            src="https://github.com/Sandeep-vishwakarma-sfdc/image-repo/blob/master/white/e2.jpeg?raw=true"
+                            alt="Third slide"
+                          />
                           <Carousel.Caption>
                             <h3>Third slide label</h3>
                             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
