@@ -1,8 +1,22 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Amit vanity van",
+  "name": "Vanity rental services",
   "icons": [
-    
+    {
+      "src": "favicon.ico",
+      "sizes": "100x64 64x32 50x24 32x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://github.com/Sandeep-vishwakarma-sfdc/image-repo/blob/master/logo/logo.png?raw=true",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://github.com/Sandeep-vishwakarma-sfdc/image-repo/blob/master/logo/logo.png?raw=true",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
   ],
   "start_url": ".",
   "display": "standalone",
