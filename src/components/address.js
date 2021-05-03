@@ -1,8 +1,9 @@
 import React,{ useState } from "react";
-import { Button } from "react-bootstrap";
+import emailjs from 'emailjs-com';
+import { useToasts } from 'react-toast-notifications';
 function Address(){
     const [mailUser,setMailUser] = useState({"name":"","email":"","phone":"","message":""});
-    
+    const { addToast } = useToasts();
     let handleChange = e => {
         console.log('event occure',e);
         let name = e.target.name;
@@ -13,7 +14,17 @@ function Address(){
     }
     
     let handleSendMessage = e =>{
+        
         console.log('MailUser',mailUser);
+        e.preventDefault();
+        emailjs.sendForm('service_p3o76ha', 'template_68vbo9m', e.target, 'user_KM8rJRAewFTDKfH0BeXfy')
+          .then((result) => {
+              console.log(result.text);
+              addToast('Email send Successfully', { appearance: 'success', autoDismiss: true}); 
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset();
     }
     
     return (
@@ -25,7 +36,7 @@ function Address(){
                 <div className="contact-image">
                     <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
                 </div>
-                <form id="contact">
+                <form id="contact" onSubmit={handleSendMessage}>
                     <h3>Drop Us a Message</h3>
                    <div className="row">
                         <div className="col-md-6">
@@ -45,7 +56,8 @@ function Address(){
                                 <textarea name="message" className="form-control" value={mailUser.message} placeholder="Your Message" onChange={handleChange}></textarea>
                             </div>
                             <div className="form-group">
-                                <Button  varient="primary" onClick={handleSendMessage}>Send Message</Button>
+                                {/* <Button  varient="primary" onSubmit={handleSendMessage}>Send Message</Button> */}
+                                <input type="submit" className="btn btn-info" value="Send Message"></input>
                             </div>
                         </div>
                     </div>
