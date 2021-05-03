@@ -5,9 +5,9 @@ export class BootstrapCarousel extends Component {
                 return (  
                         <div>
                         <Carousel fade>
-                        <Carousel.Item style={{'height':"640px"}} interval={2000}>
+                        <Carousel.Item interval={2000}>
                           <img
-                            className="d-block w-100"
+                            className="d-block w-100 imgitem"
                             src="https://github.com/Sandeep-vishwakarma-sfdc/image-repo/blob/master/darkblue/i2.jpeg?raw=true"
                             alt="First slide"
                           />
@@ -16,9 +16,9 @@ export class BootstrapCarousel extends Component {
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                           </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item style={{'height':"640px"}} interval={2000}>
+                        <Carousel.Item interval={2000}>
                           <img
-                            className="d-block w-100"
+                            className="d-block w-100 imgitem"
                             src="https://github.com/Sandeep-vishwakarma-sfdc/image-repo/blob/master/darkblue/i1.jpeg?raw=true"
                             alt="Second slide"
                           />
@@ -28,9 +28,9 @@ export class BootstrapCarousel extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                           </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item style={{'height':"640px"}} interval={2000}>
+                        <Carousel.Item interval={2000}>
                           <img
-                            className="d-block w-100"
+                            className="d-block w-100 imgitem"
                             src="https://github.com/Sandeep-vishwakarma-sfdc/image-repo/blob/master/blue/i10.jpeg?raw=true"
                             alt="Third slide"
                           />
