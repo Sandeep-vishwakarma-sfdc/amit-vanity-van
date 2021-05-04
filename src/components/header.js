@@ -1,6 +1,6 @@
 import {  Navbar, Nav} from 'react-bootstrap';
 import {FaHome,FaPhoneAlt,FaBus,FaFacebookF,FaInstagram,FaTwitter,FaLinkedinIn,FaYoutube} from 'react-icons/fa'
-import {MdEmail} from 'react-icons/md';
+import {GoMail} from 'react-icons/go'
 function Header(){
 
 return (
@@ -8,31 +8,31 @@ return (
   <div className="container-fluid" style={{backgroundColor:"#17202A"}}>
     <div className="row">
       <div className="col-sm-12 col-md-4">
-      <MdEmail color="#fff"/>
+      <GoMail color="#fff"/>
       <a className="headerlink" href="mailto:amitvanityvan@gmail.com">amitvanityvan@gmail.com 
       </a> 
       </div>
       <div className="col-sm-12 col-md-4">
-      <FaPhoneAlt color="#fff"/>
+      <FaPhoneAlt color="#2ECC71"/>
       <a className="headerlink" href="tel:+919769061832">9769061832 
-      </a> / <a className="headerlink" href="tel:+919892796375">9892796375 
+      </a> <span style={{color:"#fff"}}>/</span> <a className="headerlink" href="tel:+919892796375">9892796375 
       </a>
       </div>
       <div className="col-sm-12 col-md-4">
       <a title="facebook" style={{margin:"5px"}} href="https://www.facebook.com/Amitvanityvan/" target="_blank"> 
-      <FaFacebookF color="#fff"/>
+      <FaFacebookF color="#5DADE2" className="iconcolor"/>
       </a>
       <a title="twitter" style={{margin:"5px"}} href="https://twitter.com/amitvish786" target="_blank"> 
-      <FaTwitter color="#fff"/>
+      <FaTwitter color="#5DADE2" className="iconcolor"/>
       </a>
       <a title="instagram" style={{margin:"5px"}} href="https://www.instagram.com/amitvanityvan/" target="_blank"> 
-      <FaInstagram color="#fff"/>
+      <FaInstagram color="#E74C3C" className="iconcolor"/>
       </a>
       <a title="linkedin" style={{margin:"5px"}} href="https://in.linkedin.com/in/amit-vanity-van-4151b0138" target="_blank"> 
-      <FaLinkedinIn color="#fff"/>
+      <FaLinkedinIn color="#5DADE2" className="iconcolor"/>
       </a>
       <a title="youtube" style={{margin:"5px"}} href="https://www.youtube.com/channel/UCbDf6KxhFq9LzDYPcljO6oQ" target="_blank"> 
-      <FaYoutube color="#fff"/>
+      <FaYoutube color="#E74C3C" className="iconcolor"/>
       </a>
       </div>
     </div>

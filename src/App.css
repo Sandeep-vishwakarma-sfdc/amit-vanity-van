@@ -43,6 +43,6 @@ body{
 	color: #fff !important;;
 	font-weight:700
 }
-.iconcolor{
-
+.iconcolor :hover{
+	color: #5DADE2;
 }
