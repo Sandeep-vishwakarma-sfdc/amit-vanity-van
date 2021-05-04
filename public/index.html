@@ -12,6 +12,7 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://api.whatsapp.com/send?phone=919769061832&text=Hi" class="float" target="_blank">
+       
     <i class="fa fa-whatsapp my-float"></i></a>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -27,6 +28,51 @@
   <body>
     <noscript>Vanity van rental service</noscript>
     <div id="root"></div>
-    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "Amit vanity van",
+        "image": "https://amitvanityvan.in/",
+        "@id": "https://amitvanityvan.in/",
+        "url": "https://amitvanityvan.in/",
+        "telephone": "9769061832",
+        "priceRange": "15000",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Alica Nagar",
+          "addressLocality": "Mumbai",
+          "postalCode": "400101",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 19.039881,
+          "longitude": 72.926456
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "sameAs": [
+          "https://www.facebook.com/Amitvanityvan/",
+          "https://twitter.com/amitvish786",
+          "https://www.instagram.com/amitvanityvan/",
+          "https://www.youtube.com/channel/UCbDf6KxhFq9LzDYPcljO6oQ",
+          "https://in.linkedin.com/in/",
+          "https://amitvanityvan.in/"
+        ] 
+      }
+      </script>
   </body>
 </html>
