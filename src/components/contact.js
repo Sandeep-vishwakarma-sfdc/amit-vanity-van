@@ -45,9 +45,9 @@ return(<div style={{paddingLeft:"10px"}}>
 <h5 className="headin5_amrc col_white_amrc pt2">Follow us</h5>
 
 <ul className="footer_ul2_amrc">
-<li><a href="https://www.facebook.com/Amitvanityvan/"><FaFacebookF color="#5DADE2" className="iconcolor"/></a><a style={{paddingLeft:"5px"}} href="https://www.facebook.com/Amitvanityvan/">https://www.facebook.com/..</a></li>
-<li><a href="https://www.facebook.com/Amitvanityvan/"><FaTwitter color="#5DADE2" className="iconcolor"/></a><a style={{paddingLeft:"5px"}} href="https://twitter.com/Amitvanityvan">https://twitter.com/Amitvanityvan</a></li>
-<li><a href="https://www.facebook.com/Amitvanityvan/"><FaInstagram color="#5DADE2" className="iconcolor"/></a><a style={{paddingLeft:"5px"}} href="https://www.instagram.com/amitvanityvan/">https://www.instagram.com/..</a></li>
+<li><a href="https://www.facebook.com/Amitvanityvan/" target="_blank" rel="noreferrer"><FaFacebookF color="#5DADE2" className="iconcolor"/></a><a style={{paddingLeft:"5px"}} href="https://www.facebook.com/Amitvanityvan/">https://www.facebook.com/..</a></li>
+<li><a href="https://www.facebook.com/Amitvanityvan/" target="_blank" rel="noreferrer"><FaTwitter color="#5DADE2" className="iconcolor"/></a><a style={{paddingLeft:"5px"}} href="https://twitter.com/Amitvanityvan">https://twitter.com/Amitva..</a></li>
+<li><a href="https://www.facebook.com/Amitvanityvan/" target="_blank" rel="noreferrer"><FaInstagram color="#5DADE2" className="iconcolor"/></a><a style={{paddingLeft:"5px"}} href="https://www.instagram.com/amitvanityvan/">https://www.instagram.com/..</a></li>
 </ul>
 </div>
 </div>
