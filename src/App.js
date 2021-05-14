@@ -5,6 +5,11 @@ import Services from './components/ourServices';
 import Address from './components/address';
 import { BrowserRouter as Router, Route,Switch} from 'react-router-dom';
 import { ToastProvider } from 'react-toast-notifications';
+import Aboutus from './components/aboutus';
+import Gallary from './components/galllery';
+import OurPartner from './components/ourpartner';
+import Contact from './components/contact';
+import News from './components/news';
 
 function App() {
   return (
@@ -17,16 +22,39 @@ function App() {
         <Home/>
         <Services/>
         <Address/>
+        <Contact/>
       </Route>
       <Route exact strict path="/home">
         <Header />
         <Home/>
         <Services/>
         <Address/>
+        <Contact/>
+      </Route>
+      <Route exact strict path="/about">
+        <Header />
+        <Aboutus/>
+        <Contact/>
+      </Route>
+      <Route exact strict path="/gallery">
+        <Header />
+        <Gallary/>
+        <Contact/>
       </Route>
       <Route exact strict path="/contact">
         <Header />
         <Address/>
+        <Contact/>
+      </Route>
+      <Route exact strict path="/partner">
+        <Header />
+        <OurPartner/>
+        <Contact/>
+      </Route>
+      <Route exact strict path="/news">
+        <Header />
+        <News/>
+        <Contact/>
       </Route>
       </Switch>
       </ToastProvider>

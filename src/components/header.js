@@ -1,6 +1,9 @@
 import {  Navbar, Nav} from 'react-bootstrap';
-import {FaHome,FaPhoneAlt,FaBus,FaFacebookF,FaInstagram,FaTwitter,FaLinkedinIn,FaYoutube} from 'react-icons/fa'
+import {FaHome,FaPhoneAlt,FaFacebookF,FaInstagram,FaTwitter,FaLinkedinIn,FaYoutube,FaHandshake} from 'react-icons/fa'
 import {GoMail} from 'react-icons/go'
+import {SiGooglemybusiness} from 'react-icons/si'
+import { MdPhotoLibrary } from "react-icons/md";
+import { GiNewspaper } from "react-icons/gi";
 function Header(){
 
 return (
@@ -22,7 +25,7 @@ return (
       <a title="facebook" style={{margin:"5px"}} href="https://www.facebook.com/Amitvanityvan/" target="_blank"> 
       <FaFacebookF color="#5DADE2" className="iconcolor"/>
       </a>
-      <a title="twitter" style={{margin:"5px"}} href="https://twitter.com/amitvish786" target="_blank"> 
+      <a title="twitter" style={{margin:"5px"}} href="https://twitter.com/Amitvanityvan" target="_blank"> 
       <FaTwitter color="#5DADE2" className="iconcolor"/>
       </a>
       <a title="instagram" style={{margin:"5px"}} href="https://www.instagram.com/amitvanityvan/" target="_blank"> 
@@ -50,8 +53,11 @@ return (
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="home"><FaHome/><b style={{padding:"5px"}}>Home</b></Nav.Link>
-            <Nav.Link href="/contact#contact"><FaPhoneAlt/><b style={{padding:"5px"}}>Contact us</b></Nav.Link>
-            <Nav.Link href="/home#services"><FaBus/><b style={{padding:"5px"}}>Services</b></Nav.Link>
+            <Nav.Link href="/about"><SiGooglemybusiness/><b style={{padding:"5px"}}>About us</b></Nav.Link>
+            <Nav.Link href="/gallery"><MdPhotoLibrary/><b style={{padding:"5px"}}>Gallery</b></Nav.Link>
+            <Nav.Link href="/contact"><FaPhoneAlt/><b style={{padding:"5px"}}>Contact us</b></Nav.Link>
+            <Nav.Link href="/partner"><FaHandshake/><b style={{padding:"5px"}}>partner with us</b></Nav.Link>
+            <Nav.Link href="/news"><GiNewspaper/><b style={{padding:"5px"}}>News</b></Nav.Link>
           </Nav>
         </Navbar.Collapse>
 </Navbar></div>

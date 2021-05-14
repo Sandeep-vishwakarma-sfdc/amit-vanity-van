@@ -6,19 +6,23 @@ return(
     <div className="mt-5">
     <Container>
     <Row>
-    <Col xs={6} md={3}>
-        <Image src="https://thumbs.dreamstime.com/z/can-help-concept-made-human-hand-holding-marker-transparent-wipe-board-51624014.jpg" roundedCircle height="300px" width="300px"/>
+    <Col md={7}>
+        <Image src="https://cdn.pixabay.com/photo/2016/11/11/10/36/bus-1816338_960_720.jpg" roundedCircle height="400px" width="400px"/>
     </Col>
-    <Col>
+    <Col md={5}>
+    <h1>How can we help you</h1>
+        <p className="para">
+        Amit vanity vans has been providing travel enthusiasts a unique way to see and experience exclusive vanity vans. It’s been more than 6 years we’ve been delivering our vanity vans with enthusiasm and trust for shootings, events, and weeding’s.
+        </p>
+        <p>
+        Amit Vanity Van in mumbai maharashtra has a wide range of products and / or services to cater to the varied requirements of their customers. The staff at this establishment are courteous and prompt at providing any assistance. They readily answer any queries or questions that you may have. Pay for the product or service with ease by using any of the available modes of payment, such as Cash, Master Card, Visa Card, Debit Cards, Cheques, Credit Card. 
+        </p>
     </Col>
     </Row>
     </Container>
     </div>
     <div className="container mt-4">
-        <h1>How can we help you</h1>
-        <p className="para">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-        </p>
+        
     </div>
     </div>
 );
