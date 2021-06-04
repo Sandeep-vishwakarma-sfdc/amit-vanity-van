@@ -52,12 +52,12 @@ return (
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="home"><FaHome/><b style={{padding:"5px"}}>Home</b></Nav.Link>
-            <Nav.Link href="/about"><SiGooglemybusiness/><b style={{padding:"5px"}}>About us</b></Nav.Link>
-            <Nav.Link href="/gallery"><MdPhotoLibrary/><b style={{padding:"5px"}}>Gallery</b></Nav.Link>
-            <Nav.Link href="/contact"><FaPhoneAlt/><b style={{padding:"5px"}}>Contact us</b></Nav.Link>
-            <Nav.Link href="/partner"><FaHandshake/><b style={{padding:"5px"}}>partner with us</b></Nav.Link>
-            <Nav.Link href="/news"><GiNewspaper/><b style={{padding:"5px"}}>News</b></Nav.Link>
+            <Nav.Link href="home"><FaHome className="alink"/><b className="alink" style={{padding:"5px"}}>Home</b></Nav.Link>
+            <Nav.Link href="/about"><SiGooglemybusiness className="alink"/><b className="alink" style={{padding:"5px"}}>About us</b></Nav.Link>
+            <Nav.Link href="/gallery"><MdPhotoLibrary  className="alink" /><b  className="alink" style={{padding:"5px"}}>Gallery</b></Nav.Link>
+            <Nav.Link href="/contact"><FaPhoneAlt className="alink" /><b  className="alink" style={{padding:"5px"}}>Contact us</b></Nav.Link>
+            <Nav.Link href="/partner"><FaHandshake className="alink" /><b  className="alink" style={{padding:"5px"}}>partner with us</b></Nav.Link>
+            <Nav.Link href="/news"><GiNewspaper className="alink" /><b  className="alink" style={{padding:"5px"}}>News</b></Nav.Link>
           </Nav>
         </Navbar.Collapse>
 </Navbar></div>
