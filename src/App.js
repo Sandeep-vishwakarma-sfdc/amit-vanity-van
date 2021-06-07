@@ -10,6 +10,7 @@ import Gallary from './components/galllery';
 import OurPartner from './components/ourpartner';
 import Contact from './components/contact';
 import News from './components/news';
+import Vanity from './components/vanityvan';
 
 function App() {
   return (
@@ -55,6 +56,9 @@ function App() {
         <Header />
         <News/>
         <Contact/>
+      </Route>
+      <Route exact strict path={`/vanityvan/:imgid`}>
+        <Vanity/>
       </Route>
       </Switch>
       </ToastProvider>
