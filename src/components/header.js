@@ -46,7 +46,8 @@ return (
         <nav className="navbar navbar-light bg-light">
         <a className="navbar-brand" href="#">
           <img src="https://github.com/Sandeep-vishwakarma-sfdc/image-repo/blob/master/logo/logo.png?raw=true" width="60" height="30" className="d-inline-block align-top" alt=""></img>
-          <b style={{paddingLeft: "10px",fontSize:"14px",fontFamily:"'Roboto', sans-serif"}}>AMIT VANITY VAN</b>
+          <img src="https://github.com/Sandeep-vishwakarma-sfdc/image-repo/blob/master/logo/AMIT_VANITY_VAN.png?raw=true" width="60" height="30" className="d-inline-block align-top" alt=""></img> 
+          {/* <b style={{paddingLeft: "10px",fontSize:"14px",fontFamily:"'Roboto', sans-serif"}}>AMIT VANITY VAN</b> */}
         </a>
         </nav>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
