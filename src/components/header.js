@@ -52,7 +52,7 @@ return (
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="home"><FaHome className="alink"/><b className="alink" style={{padding:"5px"}}>Home</b></Nav.Link>
+            <Nav.Link href="/home"><FaHome className="alink"/><b className="alink" style={{padding:"5px"}}>Home</b></Nav.Link>
             <Nav.Link href="/about"><SiGooglemybusiness className="alink"/><b className="alink" style={{padding:"5px"}}>About us</b></Nav.Link>
             <Nav.Link href="/gallery"><MdPhotoLibrary  className="alink" /><b  className="alink" style={{padding:"5px"}}>Gallery</b></Nav.Link>
             <Nav.Link href="/contact"><FaPhoneAlt className="alink" /><b  className="alink" style={{padding:"5px"}}>Contact us</b></Nav.Link>
