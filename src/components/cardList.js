@@ -1,3 +1,5 @@
+
+import Button from "@material-ui/core/Button";
 const Card = ({ id, img, description }) => {
     return (
       <div className="card">
@@ -7,6 +9,7 @@ const Card = ({ id, img, description }) => {
         </div>
         <div className="card-lower">
           <p>{description}</p>
+          <Button href="https://api.whatsapp.com/send?phone=919769061832&text=Hi%21%20i%20have%20visited%20your%20website" variant="outlined" color="primary">Get Quote Now</Button>
         </div>
         </a>
       </div>

@@ -24,21 +24,6 @@ function Gallary(){
       });
     }
 
-    // return (<Container>
-    //   <div className='row'>
-    //     {vanities.map((van)=>{
-    //     return (<div className="" key={van.id}>
-    //       <div className="col-md-6">
-    //         <a href={`\\vanityvan\\${van.id}`}>
-    //       <Card style={{ width: '18rem' }}>
-    //       <Card.Img variant="top" src={van.img} />
-    //     </Card></a>
-    //       </div>
-    //      </div>)
-    //     })}
-    //   </div>
-    // </Container>)
-
 
     return (
       <div>
