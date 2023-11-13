@@ -11,8 +11,12 @@ import OurPartner from './components/ourpartner';
 import Contact from './components/contact';
 import News from './components/news';
 import Vanity from './components/vanityvan';
+import { useState } from "react";
+const GSheetReader = require('g-sheets-api');
 
 function App() {
+  const [vanities,setVanities] = useState([]);
+
   return (
     <div>
       <Router>
@@ -21,6 +25,7 @@ function App() {
       <Route exact strict path="/">
         <Header />
         <Home/>
+        <Gallary/>
         <Services/>
         <Address/>
         <Contact/>
@@ -28,6 +33,7 @@ function App() {
       <Route exact strict path="/home">
         <Header />
         <Home/>
+        <Gallary/>
         <Services/>
         <Address/>
         <Contact/>
@@ -58,6 +64,7 @@ function App() {
         <Contact/>
       </Route>
       <Route exact strict path={`/vanityvan/:imgid`}>
+        <Header />
         <Vanity/>
       </Route>
       </Switch>
